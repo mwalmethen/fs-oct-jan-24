@@ -4,6 +4,7 @@ const port = 8000;
 
 app.get('/', (req, res) => {
     const names = []
+    names.push("Omar")
     names.push("Abdullah")
     res.send(names);
 });
