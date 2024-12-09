@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
     const names = []
     names.push("Omar")
     names.push("Abdullah")
+    names.push("Dawood")
     names.push("Hey there! This is Sultan!");
     res.send(names);
 });
