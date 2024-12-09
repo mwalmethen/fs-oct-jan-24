@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 8000;
 
@@ -6,6 +6,7 @@ app.get('/', (req, res) => {
     const names = []
     names.push("Omar")
     names.push("Abdullah")
+    names.push("Hey there! This is Sultan!");
     res.send(names);
 });
 
