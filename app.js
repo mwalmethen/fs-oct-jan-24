@@ -10,6 +10,7 @@ app.get("/", (req, res) => {
   names.push("Omar")
    names.push("Dawood")
   names.push("Hey there! This is Sultan!");
+  names.push("Abdullah Al Abbas");
   res.send(names);
 
 });
